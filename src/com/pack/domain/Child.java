@@ -4,7 +4,7 @@ public class Child {
 
     private String name;
 
-    private int myVal;
+    private String myVal;
 
     public String getName() {
         return name;
@@ -14,11 +14,4 @@ public class Child {
         this.name = name;
     }
 
-    public int getMyVal() {
-        return myVal;
-    }
-
-    public void setMyVal(int myVal) {
-        this.myVal = myVal;
-    }
 }
