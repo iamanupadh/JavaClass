@@ -3,6 +3,7 @@ package com.pack.domain;
 public class Child {
 
     private String name;
+    private String surName;
 
     public String getName() {
         return name;
