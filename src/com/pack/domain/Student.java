@@ -5,6 +5,8 @@ public class Student {
     private String id;
     private Integer studentClass;
 
+    private String address;
+
     public String getName() {
         return name;
     }
@@ -27,5 +29,13 @@ public class Student {
 
     public void setStudentClass(Integer studentClass) {
         this.studentClass = studentClass;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
 }
