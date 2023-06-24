@@ -4,7 +4,7 @@ public class Child {
 
     private String name;
 
-    private String myVal;
+    private int myVal;
 
     public String getName() {
         return name;
