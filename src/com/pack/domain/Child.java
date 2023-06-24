@@ -4,13 +4,14 @@ public class Child {
 
     private String name;
 
-    private String myVal;
+    private Integer myVal;
 
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
+        String smthing;
         this.name = name;
     }
 
